@@ -40,7 +40,7 @@ O objetivo deste projeto é aprimorar as habilidades de programação front-end,
 
 O jogo está hospedado no GitHub Pages. Confira e divirta-se!
 
-[Link para o Snake Retro Game](insira-o-link-aqui)
+[Link para o Snake Retro Game](https://fabiovitorino97.github.io/js-snake-game/)
 
 ---
 
