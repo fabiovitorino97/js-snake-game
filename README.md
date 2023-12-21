@@ -8,7 +8,7 @@ O objetivo deste projeto é aprimorar as habilidades de programação front-end,
 
 ## Implementações
 
-- **JavaScript:** O jogo é alimentado principalmente pelo JavaScript para a lógica do jogo, movimentação da cobra, geração de comida, detecção de colisão e atualização contínua do estado do jogo.
+- **JavaScript:** O jogo é alimentado principalmente pelo JavaScript para a lógica do jogo, movimentação da cobra, geração de comida, detecção de colisão e atualização contínua do estado do jogo. Além disso, foram adicionadas funcionalidades como pontuação (score), top scores e suporte para dispositivos móveis com cursor de clique.
 
 - **HTML:** A estrutura do jogo é definida em HTML, incluindo o tabuleiro do jogo, a cobra e a comida.
 
@@ -22,7 +22,13 @@ O objetivo deste projeto é aprimorar as habilidades de programação front-end,
 
 - **Detecção de Colisão:** O jogo verifica se a cobra colide com as bordas do tabuleiro ou com ela mesma, encerrando o jogo quando necessário.
 
+- **Pontuação (Score):** O jogo agora exibe uma pontuação (score) com base no número de itens consumidos pela cobra.
+
+- **Top Scores:** Os melhores resultados são registrados e exibidos no jogo.
+
 - **Reset do Jogo:** O jogo pode ser reiniciado após o término.
+
+- **Suporte para Dispositivos Móveis:** Adicionado teclado onclick para dispositivos móveis.
 
 ## Como Jogar
 
@@ -34,7 +40,7 @@ O objetivo deste projeto é aprimorar as habilidades de programação front-end,
 
 2. Abra o arquivo `index.html` em um navegador web.
 
-3. Use as setas do teclado para controlar a direção da cobra.
+3. Use as setas do teclado ou clique nas direções para controlar a direção da cobra.
 
 ## Hospedagem
 

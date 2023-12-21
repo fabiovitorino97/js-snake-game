@@ -49,4 +49,48 @@ h1 {
     font-family: 'Square Deal', 'Avenger', 'Roboto', sans-serif; /* Fontes quadradas alternativas */
 }
 
+.arrow-buttons {
+    text-align: center;
+}
 
+#upButton {
+    font-size: 30px; /* Aumentei o tamanho do botão "up" para manter a formatação original */
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    display: inline-block;
+}
+
+#leftButton, #downButton, #rightButton {
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    display: inline-block;
+}
+
+#scoreboard {
+    background-color: rgba(255, 255, 255, 0.5); /* Fundo quadriculado branco com opacidade */
+    color: white; /* Cor do texto branco */
+    text-shadow: 2px 2px 0 black; /* Simula um contorno preto nas letras */
+    font-weight: bold; /* Texto em negrito */
+    padding: 10px;
+    text-align: center;
+}
+
+#score {
+    font-size: 18px; /* Tamanho da fonte para o score */
+    color: white; /* Cor do texto branco */
+    text-shadow: 2px 2px 0 black; /* Simula um contorno preto nas letras */
+    font-weight: bold; /* Texto em negrito */
+}
+
+/* Cor branca para o título (h1) */
+h3 {
+    color: white;
+}
+
+/* Cor branca para a div que contém os top scores */
+#top-scores {
+    color: white;
+}
