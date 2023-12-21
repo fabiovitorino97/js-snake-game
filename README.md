@@ -26,9 +26,9 @@ O objetivo deste projeto é aprimorar as habilidades de programação front-end,
 
 - **Top Scores:** Os melhores resultados são registrados e exibidos no jogo.
 
-- **Reset do Jogo:** O jogo pode ser reiniciado após o término.
+- **Reset do Jogo:** O jogo pode ser reiniciado após o término ou clicando no botão Restart.
 
-- **Suporte para Dispositivos Móveis:** Adicionado teclado onclick para dispositivos móveis.
+- **Suporte para Dispositivos Móveis:** O jogo pode ser jogado via teclado onclick para dispositivos móveis.
 
 ## Como Jogar
 

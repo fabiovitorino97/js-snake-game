@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const board = document.getElementById('game-board');
     const scoreElement = document.getElementById('score');
     const topScoresContainer = document.getElementById('top-scores');
+    
 
     // Constantes que definem as propriedades do jogo
     const cellSize = 20;
@@ -139,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (playerName != '') {
                     saveScore(playerName.toUpperCase().slice(0,3));
                 }
-
+                
                 resetGame();
             }
         }
@@ -198,13 +199,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const downButton = document.getElementById('downButton');
     const leftButton = document.getElementById('leftButton');
     const rightButton = document.getElementById('rightButton');
+    const restart = document.getElementById('restart')
+    
 
     // Adiciona listeners de clique para os botões
     upButton.addEventListener('click', () => changeDirection('up'));
     downButton.addEventListener('click', () => changeDirection('down'));
     leftButton.addEventListener('click', () => changeDirection('left'));
     rightButton.addEventListener('click', () => changeDirection('right'));
-
+    restart.addEventListener('click', ()=> resetGame())
+    
     // Função para mudar a direção da cobra
     function changeDirection(newDirection) {
         if (
